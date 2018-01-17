@@ -1,0 +1,6 @@
+framework module Pods_FAQUtility_Tests {
+  umbrella header "Pods-FAQUtility_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

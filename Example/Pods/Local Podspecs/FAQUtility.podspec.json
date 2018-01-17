@@ -1,0 +1,22 @@
+{
+  "name": "FAQUtility",
+  "version": "0.1.0",
+  "summary": "A short description of FAQUtility.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FAQ_Ashraf/FAQUtility",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FAQ_Ashraf": "ashraf@faqinteractive.com.au"
+  },
+  "source": {
+    "git": "https://github.com/FAQ_Ashraf/FAQUtility.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FAQUtility/Classes/**/*"
+}

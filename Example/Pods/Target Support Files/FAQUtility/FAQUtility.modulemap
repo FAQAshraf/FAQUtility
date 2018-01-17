@@ -1,0 +1,6 @@
+framework module FAQUtility {
+  umbrella header "FAQUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}

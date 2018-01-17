@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FAQUtility'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FAQUtility.'
+  s.summary          = 'A static uitlity swift class of FAQ.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/FAQ_Ashraf/FAQUtility'
+  s.homepage         = 'https://github.com/FAQAshraf/FAQUtility'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'FAQ_Ashraf' => 'ashraf@faqinteractive.com.au' }
-  s.source           = { :git => 'https://github.com/FAQ_Ashraf/FAQUtility.git', :tag => s.version.to_s }
+  s.author           = { 'FAQAshraf' => 'ashraf@faqinteractive.com.au' }
+  s.source           = { :git => 'https://github.com/FAQAshraf/FAQUtility.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
