@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FAQUtility
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func buttonClicked(_ sender: Any) {
+        let result = FAQUtility.isEmptyString("Hello")
+        
     }
 
 }

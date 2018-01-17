@@ -43,9 +43,9 @@
 		79B5B1E6F964F2C3FA99008D /* Pods_FAQUtility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAQUtility_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		829EA3DE4A2BE12197FE1EC2 /* Pods-FAQUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAQUtility_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAQUtility_Tests/Pods-FAQUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB934F073ACF89E7EFFAA8F2 /* Pods-FAQUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAQUtility_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAQUtility_Tests/Pods-FAQUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E473D8BF0C82B23914E113A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E7F24341B7C5EB98CD4AEE39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EAACE064F4B0C667637FAA79 /* FAQUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FAQUtility.podspec; path = ../FAQUtility.podspec; sourceTree = "<group>"; };
+		E473D8BF0C82B23914E113A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E7F24341B7C5EB98CD4AEE39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EAACE064F4B0C667637FAA79 /* FAQUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FAQUtility.podspec; path = ../FAQUtility.podspec; sourceTree = "<group>"; };
 		F6B57B3C5243342C182863E8 /* Pods-FAQUtility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAQUtility_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAQUtility_Example/Pods-FAQUtility_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = UF2HSF292Z;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = UF2HSF292Z;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,13 +519,14 @@
 			baseConfigurationReference = F6B57B3C5243342C182863E8 /* Pods-FAQUtility_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UF2HSF292Z;
 				INFOPLIST_FILE = FAQUtility/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -532,13 +535,14 @@
 			baseConfigurationReference = 453A1AC80172C1B77F3B53F1 /* Pods-FAQUtility_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UF2HSF292Z;
 				INFOPLIST_FILE = FAQUtility/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB934F073ACF89E7EFFAA8F2 /* Pods-FAQUtility_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UF2HSF292Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -559,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 829EA3DE4A2BE12197FE1EC2 /* Pods-FAQUtility_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UF2HSF292Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -576,7 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

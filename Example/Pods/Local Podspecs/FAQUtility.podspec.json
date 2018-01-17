@@ -1,18 +1,18 @@
 {
   "name": "FAQUtility",
   "version": "0.1.0",
-  "summary": "A short description of FAQUtility.",
+  "summary": "A static uitlity swift class of FAQ.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/FAQ_Ashraf/FAQUtility",
+  "homepage": "https://github.com/FAQAshraf/FAQUtility",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "FAQ_Ashraf": "ashraf@faqinteractive.com.au"
+    "FAQAshraf": "ashraf@faqinteractive.com.au"
   },
   "source": {
-    "git": "https://github.com/FAQ_Ashraf/FAQUtility.git",
+    "git": "https://github.com/FAQAshraf/FAQUtility.git",
     "tag": "0.1.0"
   },
   "platforms": {
