@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonClicked(_ sender: Any) {
         let result = FAQUtility.isEmptyString("Hello")
-        
+        print(result)
     }
 
 }

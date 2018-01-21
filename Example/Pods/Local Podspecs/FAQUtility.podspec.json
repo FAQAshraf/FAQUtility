@@ -1,6 +1,6 @@
 {
   "name": "FAQUtility",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "A static uitlity swift class of FAQ.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/FAQAshraf/FAQUtility",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/FAQAshraf/FAQUtility.git",
-    "tag": "0.1.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
