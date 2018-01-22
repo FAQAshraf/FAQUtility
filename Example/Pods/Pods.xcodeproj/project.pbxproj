@@ -17,7 +17,6 @@
 		AB01919F92D6488A418D78F19F69CA2A /* Pods-FAQUtility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2C89214D734AB5AE45E8DA2FF6E065 /* Pods-FAQUtility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72ACBB1455939270C7E1871B3ED1164 /* FAQUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054144A11267CF1BDC7C14A3B175B7A2 /* FAQUtility.swift */; };
 		BAF4E706CE8FDCEB7C67327C3C81A828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EE7E597B23BAA190534690D30937FFB8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A77FCB6CFCE9C723DF88B62D9F2C9 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		054144A11267CF1BDC7C14A3B175B7A2 /* FAQUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAQUtility.swift; path = FAQUtility/Classes/FAQUtility.swift; sourceTree = "<group>"; };
-		192A77FCB6CFCE9C723DF88B62D9F2C9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FAQUtility/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1FE3B3F0C2D60457C16AC88A202F5054 /* Pods-FAQUtility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAQUtility_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24228633345C265CC604A6D272791457 /* Pods-FAQUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAQUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		26082452F5F70680EE8E5DE875B8B15F /* FAQUtility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAQUtility-prefix.pch"; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				054144A11267CF1BDC7C14A3B175B7A2 /* FAQUtility.swift */,
-				192A77FCB6CFCE9C723DF88B62D9F2C9 /* ReplaceMe.swift */,
 				77AE53E48F01247E5B4A9B3AB813E38B /* Support Files */,
 			);
 			name = FAQUtility;
@@ -342,7 +339,6 @@
 			files = (
 				468D6E91EB8011ADF6C10402F9AF7219 /* FAQUtility-dummy.m in Sources */,
 				B72ACBB1455939270C7E1871B3ED1164 /* FAQUtility.swift in Sources */,
-				EE7E597B23BAA190534690D30937FFB8 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
